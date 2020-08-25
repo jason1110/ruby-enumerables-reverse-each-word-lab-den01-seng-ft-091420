@@ -1,3 +1,6 @@
+hi = "Hello! How are you?"
+
+
 def reverse_each_word(string)
   
   array = %w(string)
@@ -8,3 +11,6 @@ def reverse_each_word(string)
   end  
  reversed.join(" ")
  end
+ 
+ 
+ reverse_each_word(hi)
