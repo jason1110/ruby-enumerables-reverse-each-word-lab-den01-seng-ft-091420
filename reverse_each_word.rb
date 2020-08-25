@@ -10,7 +10,7 @@ binding.pry
   array.each do |arr|
     reversed << arr.reverse
   end  
- puts reversed.join(" ")
+ reversed.join(" ")
  end
  
  
