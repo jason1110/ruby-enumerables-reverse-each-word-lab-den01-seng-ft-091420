@@ -4,7 +4,7 @@ require 'pry'
 
 def reverse_each_word(string)
   array = string.split(" ")
-#  reversed = []
+  reversed = []
   
 #  array.each do |arr|
 #    reversed << arr.reverse
@@ -13,7 +13,9 @@ def reverse_each_word(string)
  #end
  
  
- array.collect{|arr| arr.reverse}
- arr.join(" ")
+ array.collect do |arr| 
+   reversed  << arr.reverse}
+  end 
+ reversed.join(" ")
  end
  #reverse_each_word(hi)
