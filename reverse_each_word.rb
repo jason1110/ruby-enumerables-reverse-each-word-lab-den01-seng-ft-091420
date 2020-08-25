@@ -1,4 +1,4 @@
-hi = "Hello! How are you?"
+#hi = "Hello! How are you?"
 
 
 def reverse_each_word(string)
@@ -13,4 +13,4 @@ def reverse_each_word(string)
  end
  
  
- reverse_each_word(hi)
+ #reverse_each_word(hi)
