@@ -1,9 +1,9 @@
-pry
+require 'pry'
 #hi = "Hello! How are you?"
 
 
 def reverse_each_word(string)
-  
+binding.pry  
   array = string.split(" ")
   reversed = []
   
