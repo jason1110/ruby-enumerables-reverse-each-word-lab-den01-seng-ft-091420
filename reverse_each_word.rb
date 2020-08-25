@@ -9,7 +9,7 @@ def reverse_each_word(string)
   array.each do |arr|
     reversed << arr.reverse
   end  
- reversed.join(" ")
+ puts reversed.join(" ")
  end
  
  
