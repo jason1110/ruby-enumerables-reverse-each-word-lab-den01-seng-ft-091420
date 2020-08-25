@@ -4,12 +4,8 @@ require 'pry'
 
 def reverse_each_word(string)
   array = string.split(" ")
-  reversed = []
-  
-  array.collect do |arr|
-    reversed << arr.reverse
-  end  
- reversed.join(" ")
+  array.collect {array.reverse}
+ array.join(" ")
  end
  
  
