@@ -13,6 +13,6 @@ def reverse_each_word(string)
  end
  
  
- array.collect{
+ array.collect{|arr| arr.reverse}
  
  #reverse_each_word(hi)
