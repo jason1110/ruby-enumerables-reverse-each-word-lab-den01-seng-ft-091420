@@ -3,7 +3,7 @@ hi = "Hello! How are you?"
 
 def reverse_each_word(string)
   
-  array = string.to_a
+  array = %w[string]
   reversed = []
   
   array.each do |arr|
