@@ -2,8 +2,8 @@ def reverse_each_word string
   
   reversed = []
   
-  string.each do |arr|
-    reversed << w%(arr).reverse
+  w%string.each do |arr|
+    reversed << arr.reverse
   end  
  reverse.concat
  end
